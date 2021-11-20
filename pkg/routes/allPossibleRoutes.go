@@ -13,7 +13,6 @@ func AllPossibleRoutes(currentRoom *structs.Room, previousRoom *structs.Room, en
 	if currentRoom.Name == endName {
 		counter++
 		route = append(route, currentRoom.Name)
-		//routes[counter] = route //sagar = same as below line
 		routes[counter] = append(routes[counter], route...)
 		route = route[:len(route)-1]
 	} else {
