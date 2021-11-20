@@ -5,7 +5,6 @@ import (
 	"strconv"
 )
 
-// BestRoutes(allRouteCombos, temp, cleanedRoutes)
 func BestRoutes(a [][]string, antCount2 int, goodRoutes []structs.Routes) int {
 	var b []int
 	var c []int
