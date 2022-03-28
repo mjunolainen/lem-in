@@ -14,7 +14,7 @@ func SendAnts(goodRoutes []string, numberOfAnts int, ourRoutes []structs.Routes,
 	var paths []int
 	for _, val := range goodRoutes {
 		for i := range ourRoutes {
-			if strconv.Itoa((ourRoutes[i].Key)) == val {
+			if strconv.Itoa(ourRoutes[i].Key) == val {
 				solution = append(solution, ourRoutes[i].Value)
 			}
 		}
