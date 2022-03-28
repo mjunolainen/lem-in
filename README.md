@@ -83,7 +83,7 @@ It is recommended that the code should present a test file.
   * for example **go run . example00.txt"**
 
 ### Authors
-* Harlet / harlet
-* Taavi / TaaviR
-* Welsley / Seij
-* Markko / juno
+* Harlet 
+* Taavi
+* Welsley 
+* Markko
